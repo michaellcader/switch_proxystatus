@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Burp Proxy Toggle",
+  "version": "1.0",
+  "description": "A simple one-click toggle to enable/disable the Burp Suite proxy.",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click to toggle Burp Proxy"
+  },
+  "icons": {
+    "128": "icons/icon_off.png"
+  }
+}
